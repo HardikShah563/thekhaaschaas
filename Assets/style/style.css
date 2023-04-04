@@ -132,7 +132,7 @@ nav {
     margin: auto 10px;
 }
 
-.nav-links li a{
+.nav-links li a {
     color: var(--black);
     font-weight: 500;
     font-size: 18px;
@@ -417,7 +417,7 @@ nav {
 
 .flavour {
     width: 350px;
-    height: 380px;
+    height: 500px;
     border: 2px solid var(--black);
 }
 
@@ -610,11 +610,42 @@ nav {
     margin: auto auto;
 }
 
+.reach-out {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
 .contact {
     margin: 20px;
     display: flex;
-    justify-content: center;
-    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: left;
+    align-items: center;
+}
+
+.contact i {
+    font-size: 32px;
+}
+
+.contact a {
+    color: var(--black);
+    font-size: 24px;
+}
+
+@media (max-width: 500px) {
+    .contact {
+        margin: 10px;
+    }
+
+    .contact i {
+        font-size: 24px;
+    }
+
+    .contact a {
+        font-size: 16px;
+    }
 }
 
 .contact-logo {
