@@ -139,7 +139,13 @@ nav {
     transition: 300ms;
 }
 
-.contact i {
+.contact {
+    display: flex;
+}
+
+.contact a {
+    display: inline-flex;
+    margin: 0 5px;
     transition: 300ms;
 }
 
@@ -162,11 +168,6 @@ nav {
     width: 10px;
     height: 2px;
     margin: 5px;
-}
-
-.contact i {
-    margin: 0 20px;
-    font-size: 24px;
 }
 
 .hidden {
@@ -815,11 +816,15 @@ hr {
 
 .below-footer-section {
     display: flex;
-    flex-wrap: wrap;;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
-.below-footer-section i {
+.below-footer-section a {
     font-size: 18px;
+    color: var(--white);
+    align-items: center;
+    margin: 10px;
 }
 
 .privacy-policy {
@@ -846,4 +851,9 @@ hr {
     .foot-section {
         padding-left: 0px;
     }
+}
+
+.yellow-text {
+    color: var(--yellow);
+    font-weight: 600;
 }
