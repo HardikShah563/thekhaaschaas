@@ -7,6 +7,7 @@
     --yellow: #ffc84c;
     --cream: #fdf4d7;
     --lavender: #e3dff9;
+    --purple: #beb2ff;
     --cyan: #95fff7;
     --off-pink:#f0d0d0;
     --off-green: #c9fdb5;
@@ -676,7 +677,8 @@ input:focus, textarea:focus, button:focus {
 }
 
 .contact-form button {
-    background-color: var(--violet);
+    background-color: var(--purple);
+    font-weight: 600;
     cursor: pointer;
 }
 
