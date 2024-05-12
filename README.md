@@ -1,4 +1,5 @@
 # THE KHAAS CHAAS
 ### desi cold drink
 
-website url 🔗: https://www.thekhaaschaas.com/
+self hosted 🔗: https://hardikshah563.github.io/thekhaaschaas/
+website url 🔗: https://www.thekhaaschaas.com/ (domain expired)
